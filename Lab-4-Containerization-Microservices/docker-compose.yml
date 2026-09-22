@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - REDIS_HOST=redis-cache
+    depends_on:
+      - redis-cache
+    restart: always
+
+  redis-cache:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: always
