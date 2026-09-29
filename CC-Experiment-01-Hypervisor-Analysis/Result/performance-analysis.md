@@ -162,13 +162,13 @@ Metric                           Proxmox VE
 
 ---
 
-Total Execution Time        **TO BE ADDED**\
-Total Events                **TO BE ADDED**\
-Events per Second           **TO BE ADDED**\
-Minimum Latency             **TO BE ADDED**\
-Average Latency             **TO BE ADDED**\
-Maximum Latency             **TO BE ADDED**\
-95th Percentile Latency     **TO BE ADDED**
+Total Execution Time        9.84s
+Total Events               24
+Events per Second           2.,475
+Minimum Latency            0.39ms
+Average Latency            0.40 ms
+Maximum Latency             3.87ms
+95th Percentile Latency     0.41ms
 
 ### Proxmox Resource Monitoring
 
